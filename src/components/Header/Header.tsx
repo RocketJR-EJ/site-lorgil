@@ -11,6 +11,7 @@ function Header() {
     };
 
     return (
+        <>
         <header className=" font-poppins font-[500] flex bg-gradient-to-r from-red-600 to-red-800 text-white items-center justify-around p-4 relative">
             <img className="w-32" src="/Logo_Lorgil.svg" alt="Imagem" />
 
@@ -51,6 +52,11 @@ function Header() {
                 </div>
             )}
         </header>
+
+        <article className='p-9 flex bg-zinc-900 text-white items-center justify-around relative'>
+            <h1>Jotta #222222</h1>
+        </article>
+       </>
     );
 }
 
