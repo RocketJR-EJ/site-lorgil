@@ -1,4 +1,6 @@
-import CardOculos from '../CardOculos'
+import BigCardGlasses from '../BigCardGlasses'
+import SmallCardGlasses from '../SmallCardGlasses'
+import Image from 'next/image'
 
 export default function Section2() {
   return (
@@ -15,8 +17,20 @@ export default function Section2() {
           commodi ipsa eveniet aspernatur unde ducimus vero distinctio debitis vitae.
         </p>
         <div className="flex flex-wrap justify-center items-stretch gap-4 mb-10">
-          <CardOculos title="Óculos Classic" description="Modelo clássico perfeito para qualquer ocasião" />
-          <CardOculos title="Óculos Sport" description="Ideal para atividades ao ar livre e esportes" />
+          <BigCardGlasses
+            title="Óculos de Sol"
+            linkImgGlasses="GlassesSection2/lovarato-duelii.svg"
+            modelo="0012/1234"
+            collection="ÉLLE"
+            linkImgEnterprise="Enterprises/lovarato.svg"
+          />
+           <SmallCardGlasses
+            title="Óculos de Sol"
+            linkImgGlasses="GlassesSection2/colcci-gabi.svg"
+            modelo="0012ASDASD123AS"
+            collection="GABI"
+            linkImgEnterprise="Enterprises/colcci.svg"
+          />
         </div>
         <div className="flex justify-center">
           <button className="px-6 py-3 bg-red-500 hover:bg-red-600 text-white rounded-md transition-colors shadow-md">
