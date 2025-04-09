@@ -12,7 +12,7 @@ function Header() {
 
     return (
         <>
-        <header className=" font-poppins font-[500] flex bg-gradient-to-r from-red-600 to-red-800 text-white items-center justify-around p-4 relative">
+        <header className="sticky top-0 z-50 font-poppins font-[500] flex bg-gradient-to-r from-red-600 to-red-800 text-white items-center justify-around p-4 relative">
             <img className="w-32" src="/Logo_Lorgil.svg" alt="Imagem" />
 
             <nav className="hidden md:block">

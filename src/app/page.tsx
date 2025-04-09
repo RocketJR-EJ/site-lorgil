@@ -1,11 +1,9 @@
-import Header from '@/components/Header/Header';
-import Slide from '@/components/Slide/Slide';
+import Section1 from "@/components/Section1";
 
 export default function Home() {
   return (
     <>
-    <Header />
-    <Slide />
+    <Section1 />
     </>
   );
 }

@@ -3,50 +3,50 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
-
 function Slide() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
-    '/image1.jpg',
-    '/image2.jpg',
-    '/image3.jpg'
+    '/image1.png',
+    '/image2.png',
+    '/image3.png'
   ];
-
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
-    }, 3000);
+    }, 8000);
     
     return () => clearInterval(interval);
   }, []);
-
 
   const goToSlide = (index: number) => {
     setCurrentSlide(index);
   };
 
   return (
-    <div className="h-screen flex flex-col items-center">
-      <div className="relative w-full h-130 overflow-hidden shadow-xl">
-
-        <div 
-          className="flex transition-transform duration-1200 ease-in-out h-full"
-          style={{ transform: `translateX(-${currentSlide * 100}%)` }}
-        >
-          {slides.map((slide, index) => (
-            <div key={index} className="w-full h-full flex-shrink-0 relative">
-              <Image 
-                src={slide} 
-                alt={`Slide ${index + 1}`}
-                fill
-                className="object-cover"
-              />
-            </div>
-          ))}
+    <div className="flex flex-col items-center w-full">
+      <div className="relative w-full overflow-hidden mx-auto">
+        <div className="relative w-full aspect-[16/9] md:aspect-auto md:h-[70vh]">
+          <div 
+            className="flex absolute top-0 left-0 w-full h-full transition-transform duration-1200 ease-in-out"
+            style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+          >
+            {slides.map((slide, index) => (
+              <div key={index} className="w-full h-full flex-shrink-0 relative">
+                <Image 
+                  src={slide} 
+                  alt={`Slide ${index + 1}`}
+                  fill
+                  className="object-fit" 
+                  sizes="100vw"
+                  priority={index === currentSlide}
+                  quality={90}
+                />
+              </div>
+            ))}
+          </div>
         </div>
         
-
         <button 
           className="absolute top-1/2 left-4 -translate-y-1/2 bg-white/30 hover:bg-white/50 rounded-full p-2"
           onClick={() => setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1))}
