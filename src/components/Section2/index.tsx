@@ -20,7 +20,7 @@ const mormaiGlasses = [
     title: "Óculos de Sol",
     linkImgGlasses: "/img/GlassesSection2/mormai-angel.svg",
     modelo: "M6079AA35",
-    collection: "ANGEL",
+    collection: "AGEL",
     linkImgEnterprise: "/img/Enterprises/mormaii.svg"
   },
   {
@@ -39,9 +39,9 @@ const mormaiGlasses = [
   },
   {
     title: "Óculos de Sol",
-    linkImgGlasses: "/img/GlassesSection2/colcci-gabi.svg",
-    modelo: "0012ASDASD123AS",
-    collection: "GABI",
+    linkImgGlasses: "/img/GlassesSection2/M6071ABC5.png",
+    modelo: "M6071ABC5",
+    collection: "SWAP 2",
     linkImgEnterprise: "/img/Enterprises/mormaii.svg"
   }
 ];
