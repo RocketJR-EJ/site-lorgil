@@ -18,17 +18,17 @@ export default function Section2() {
         <div className="flex flex-wrap justify-center items-stretch gap-4 mb-10">
           <BigCardGlasses
             title="Óculos de Sol"
-            linkImgGlasses="GlassesSection2/lovarato-duelii.svg"
+            linkImgGlasses="/img/GlassesSection2/lovarato-duelii.svg"
             modelo="0012/1234"
             collection="ÉLLE"
-            linkImgEnterprise="Enterprises/lovarato.svg"
+            linkImgEnterprise="/img/Enterprises/lovarato.svg"
           />
            <SmallCardGlasses
             title="Óculos de Sol"
-            linkImgGlasses="GlassesSection2/colcci-gabi.svg"
+            linkImgGlasses="/img/GlassesSection2/colcci-gabi.svg"
             modelo="0012ASDASD123AS"
             collection="GABI"
-            linkImgEnterprise="Enterprises/colcci.svg"
+            linkImgEnterprise="/img/Enterprises/colcci.svg"
           />
         </div>
         <div className="flex justify-center">
