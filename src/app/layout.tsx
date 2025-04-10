@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 const poppins = Poppins({
   subsets: ['latin'],
   weight: ['400', '700'],
-  variable: '--font-poppins', // variável que vamos usar no Tailwind
+  variable: '--font-poppins',
 })
 
 export const metadata: Metadata = {
@@ -30,8 +30,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={poppins.className}>
-      <body>{children}</body>
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable}`}>
+      <body className={poppins.className}>{children}</body>
     </html>
   );
 }

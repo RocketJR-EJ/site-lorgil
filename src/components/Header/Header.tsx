@@ -1,5 +1,5 @@
 "use client"
-
+import Image from 'next/image';
 import { Instagram, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
@@ -13,7 +13,13 @@ function Header() {
     return (
         <>
         <header className="sticky top-0 z-50 font-poppins font-[500] flex bg-gradient-to-r from-red-600 to-red-800 text-white items-center justify-around p-4 relative">
-            <img className="w-32" src="/Logo_Lorgil.svg" alt="Imagem" />
+            <Image 
+              className="w-32" 
+              src="/img/Logos/Logo_Lorgil.svg" 
+              width={128} 
+              height={40} 
+              alt="Logo Lorgil" 
+            />
 
             <nav className="hidden md:block">
                 <ul className="flex gap-6 items-center">

@@ -6,9 +6,9 @@ import Image from 'next/image';
 function Slide() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
-    '/image1.png',
-    '/image2.png',
-    '/image3.png'
+    '/img/SlidesImgs/image1.png',
+    '/img/SlidesImgs/image2.png',
+    '/img/SlidesImgs/image3.png'
   ];
 
   useEffect(() => {
@@ -17,7 +17,7 @@ function Slide() {
     }, 8000);
     
     return () => clearInterval(interval);
-  }, []);
+  }, [slides.length]); // Add slides.length as a dependency
 
   const goToSlide = (index: number) => {
     setCurrentSlide(index);
