@@ -1,7 +1,7 @@
-import Header from '@/components/Header/Header';
-import Slide from '@/components/Slide/Slide';
-import BarMarcas from '@/components/BarMarcas/BarMarcas';
-import Cards from '@/components/Cards/Cards';
+import Header from '@/components/Header';
+import Slide from '@/components/Slide';
+import BarMarcas from '@/components/BarEnterprise';
+import Cards from '@/components/Cards';
 
 
 function Section1() {
@@ -12,7 +12,6 @@ function Section1() {
             <BarMarcas />
             <Cards />
         </>
-
     );
 }
 

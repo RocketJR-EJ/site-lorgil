@@ -12,7 +12,7 @@ function Header() {
 
     return (
         <>
-        <header className="sticky top-0 z-50 font-poppins font-[500] flex bg-gradient-to-r from-red-600 to-red-800 text-white items-center justify-around p-4 relative">
+        <header className=" w-screen sticky top-0 z-50 font-poppins font-[500] flex bg-gradient-to-r from-red-600 to-red-800 text-white items-center justify-around p-4 relative">
             <Image 
               className="w-32" 
               src="/img/Logos/Logo_Lorgil.svg" 
@@ -59,7 +59,7 @@ function Header() {
             )}
         </header>
 
-        <article className='p-9 flex bg-zinc-900 text-white items-center justify-around relative'>
+        <article className='p-9 flex bg-zinc-900 text-white items-center justify-around relative w-screen'>
             <h1>Jotta #222222</h1>
         </article>
        </>
