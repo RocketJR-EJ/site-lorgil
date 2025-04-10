@@ -1,6 +1,5 @@
 import BigCardGlasses from '../BigCardGlasses'
 import SmallCardGlasses from '../SmallCardGlasses'
-import Image from 'next/image'
 
 export default function Section2() {
   return (
