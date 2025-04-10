@@ -1,4 +1,5 @@
 import { Poppins } from 'next/font/google'
+import Image from 'next/image'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -22,7 +23,7 @@ export default function SmallCardGlasses({
     <div className={`bg-white p-5 w-[250px] h-[212px] border-[1px] border-[#0000006B] rounded-[4px] ${poppins.className}`}>
       <div>
         <div className="flex justify-center">
-          <img src={linkImgGlasses} alt={title} className="w-[150px]" />
+          <Image src={linkImgGlasses} alt={title} width={150} height={150} className="w-[150px]" />
         </div>
         <div className="flex justify-end mt-7 mb-2">
           <span className="text-[9px] text-black tracking-[0.04em] font-[300]">IMAGEM MERAMENTE ILUSTRATIVA</span>
@@ -35,9 +36,11 @@ export default function SmallCardGlasses({
           <h3 className="text-[10px] text-black self-end tracking-[0.09em] font-[300]">
             COLEÇÃO {collection}
           </h3>
-          <img
+          <Image
             src={linkImgEnterprise}
             alt={title}
+            width={70}
+            height={70}
             className="w-[70px]"
           />
         </div>
