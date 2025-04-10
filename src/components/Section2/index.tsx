@@ -23,7 +23,7 @@ export default function Section2() {
             collection="ÉLLE"
             linkImgEnterprise="/img/Enterprises/lovarato.svg"
           />
-           <SmallCardGlasses
+          <SmallCardGlasses
             title="Óculos de Sol"
             linkImgGlasses="/img/GlassesSection2/colcci-gabi.svg"
             modelo="0012ASDASD123AS"
