@@ -145,3 +145,4 @@ O projeto utiliza [Tailwind CSS](https://tailwindcss.com/) para estilização. A
 ## Deploy na Vercel
 
 A maneira mais fácil de fazer o deploy do seu app Next.js é usar a [Vercel Platform](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example).
+
