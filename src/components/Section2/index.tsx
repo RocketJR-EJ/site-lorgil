@@ -97,7 +97,7 @@ export default function Section2() {
       <div className="flex flex-col lg:flex-row items-center gap-10 mb-20">
         <div className="w-full lg:w-1/2">
           <Image
-            src="/img/ImgsSection3/first-image.svg"
+            src="/img/ImgsSection2/first-image.svg"
             alt="Section 2"
             width={840}
             height={440}
@@ -137,7 +137,7 @@ export default function Section2() {
         </div>
         <div className="w-full lg:w-auto lg:w-1/2">
           <Image
-            src="/img/ImgsSection3/second-image.svg"
+            src="/img/ImgsSection2/second-image.svg"
             alt="Section 2"
             width={840}
             height={440}
