@@ -20,10 +20,10 @@ export default function BigCardGlasses({
   linkImgEnterprise: string
 }) {
   return (
-    <div className={`bg-white p-5 w-[350px] h-[300px] rounded-[8px] flex flex-col ${poppins.className}`}>
+    <div className={`bg-white p-4 w-[48%] h-[300px] rounded-[8px] flex flex-col ${poppins.className}`}>
       <div className="flex-1">
         <div className="flex justify-center items-center h-32">
-          <div className="relative w-[270px] h-[130px]">
+          <div className="relative w-full h-[130px]">
             <Image
               src={linkImgGlasses}
               alt={title}
@@ -33,17 +33,17 @@ export default function BigCardGlasses({
           </div>
         </div>
         <div className="flex justify-end mt-4 mb-1">
-          <span className="text-[14px] text-black tracking-[0.09em] font-[300]">IMAGEM MERAMENTE ILUSTRATIVA</span>
+          <span className="text-xs sm:text-[14px] text-black tracking-[0.09em] font-[300]">IMAGEM MERAMENTE ILUSTRATIVA</span>
         </div>
         <div className="w-full h-[1px] bg-black my-2"></div>
       </div>
       <div className="mt-4">
-        <h3 className="text-black tracking-[0.1em] font-[400]">MODELO: {modelo}</h3>
+        <h3 className="text-sm sm:text-base text-black tracking-[0.1em] font-[400]">MODELO: {modelo}</h3>
         <div className="flex justify-between items-center mt-2">
-          <h3 className="text-[14px] text-black self-end tracking-[0.09em] font-[300]">
+          <h3 className="text-xs sm:text-[14px] text-black self-end tracking-[0.09em] font-[300]">
             COLEÇÃO <span className="font-bold">{collection}</span>
           </h3>
-          <div className="relative w-[120px] h-[25px]">
+          <div className="relative w-[90px] sm:w-[120px] h-[25px]">
             <Image
               src={linkImgEnterprise}
               alt={title}
