@@ -93,55 +93,58 @@ const jeanPierreGlasses = [
 
 export default function Section2() {
   return (
-    <section className="w-full bg-white text-black my-10">
-      <div className="flex flex-col lg:flex-row items-center gap-10 mb-20">
-        <div className="w-full lg:w-1/2">
+    <section className="w-full bg-white text-black my-10 px-0 sm:px-0 md:px-0">
+      <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8 mb-12 md:mb-20">
+        <div className="w-full md:w-1/2">
           <Image
             src="/img/ImgsSection2/first-image.svg"
             alt="Section 2"
             width={840}
             height={440}
-            className="w-full h-auto"
+            className="w-auto h-full object-contain"
+            priority
           />
         </div>
-        <div className="mt-6 lg:mt-0 flex justify-center">
-          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="w-full md:w-3/5 mt-6 md:mt-0 flex justify-center">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 w-full">
             {mormaiGlasses.map((glass, index) => (
-              <SmallCardGlasses
-                key={index}
-                title={glass.title}
-                linkImgGlasses={glass.linkImgGlasses}
-                modelo={glass.modelo}
-                collection={glass.collection}
-                linkImgEnterprise={glass.linkImgEnterprise}
-              />
+              <div key={index} className="flex justify-center">
+                <SmallCardGlasses
+                  title={glass.title}
+                  linkImgGlasses={glass.linkImgGlasses}
+                  modelo={glass.modelo}
+                  collection={glass.collection}
+                  linkImgEnterprise={glass.linkImgEnterprise}
+                />
+              </div>
             ))}
           </div>
         </div>
       </div>
 
-      <div className="flex flex-col-reverse lg:flex-row items-center gap-6 lg:gap-10">
-        <div className="mt-6 lg:mt-0 lg:ml-10 flex justify-center">
-          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="flex flex-col-reverse md:flex-row items-center gap-6 md:gap-8">
+        <div className="w-full md:w-3/5 mt-6 md:mt-0 flex justify-center">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 w-full">
             {jeanPierreGlasses.map((glass, index) => (
-              <SmallCardGlasses
-                key={index}
-                title={glass.title}
-                linkImgGlasses={glass.linkImgGlasses}
-                modelo={glass.modelo}
-                collection={glass.collection}
-                linkImgEnterprise={glass.linkImgEnterprise}
-              />
+              <div key={index} className="flex justify-center">
+                <SmallCardGlasses
+                  title={glass.title}
+                  linkImgGlasses={glass.linkImgGlasses}
+                  modelo={glass.modelo}
+                  collection={glass.collection}
+                  linkImgEnterprise={glass.linkImgEnterprise}
+                />
+              </div>
             ))}
           </div>
         </div>
-        <div className="w-full lg:w-auto lg:w-1/2">
+        <div className="w-full md:w-1/2">
           <Image
             src="/img/ImgsSection2/second-image.svg"
             alt="Section 2"
             width={840}
             height={440}
-            className="w-full h-auto"
+            className="w-full h-auto object-contain"
           />
         </div>
       </div>
