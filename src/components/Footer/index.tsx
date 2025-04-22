@@ -16,9 +16,9 @@ export default function Footer() {
             />
           </div>
           <div className="text-center md:text-left text-xs flex flex-col md:flex-row gap-2 md:gap-6">
-            <span>Privacy Policy</span>
-            <span>Terms Of Service</span>
-            <span>2025 Rocket Jr All Rights Reserved.</span>
+            <a href="#" className="hover:opacity-75 transition-opacity">Política de Privacidade</a>
+            <a href="#" className="hover:opacity-75 transition-opacity">Termos de Uso</a>
+            <a href="#" className="hover:opacity-75 transition-opacity">© 2025 ROCKETJR. Todos os direitos reservados.</a>
           </div>
         </div>
       </div>
