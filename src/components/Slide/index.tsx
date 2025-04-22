@@ -6,9 +6,9 @@ import Image from 'next/image';
 function Slide() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
-    '/img/SlidesImgs/image1.png',
-    '/img/SlidesImgs/image2.png',
-    '/img/SlidesImgs/image3.png'
+    '/img/SlidesImgs/image3.jpg',
+    '/img/SlidesImgs/image2.jpg',
+    '/img/SlidesImgs/image1.jpg'
   ];
 
   useEffect(() => {
