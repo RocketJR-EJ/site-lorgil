@@ -148,7 +148,7 @@ function Section4 (){
             <h1 className="font-medium text-center">Modelos Duster Concept</h1>
             <div className="flex flex-col">
                 <div className="flex flex-col gap-5">
-                    <div className="flex flex-wrap gap-5 justify-center items-center">
+                    <div id="DusterConcept" className="flex flex-wrap gap-5 justify-center items-center">
                         {DusterConcept.map((oculos, index)=>(
                             <SmallCardGlasses
                             key={index}
@@ -166,7 +166,7 @@ function Section4 (){
             <h1 className="font-medium text-center">Modelos Carol Cazassa</h1>
             <div className="flex flex-col">
                 <div className="flex flex-col gap-5">
-                    <div className="flex flex-wrap gap-5 justify-center items-center">
+                    <div id="CarolCazassa" className="flex flex-wrap gap-5 justify-center items-center">
                         {CarolCazassa.map((oculos, index)=>(
                             <SmallCardGlasses
                             key={index}
@@ -184,7 +184,7 @@ function Section4 (){
             <h1 className="font-medium text-center">Modelos Vilenev</h1>
             <div className="flex flex-col">
                 <div className="flex flex-col gap-5">
-                    <div className="flex flex-wrap gap-5 justify-center items-center">
+                    <div id="Vilenev" className="flex flex-wrap gap-5 justify-center items-center">
                         {Vilenev.map((oculos, index)=>(
                             <SmallCardGlasses
                             key={index}

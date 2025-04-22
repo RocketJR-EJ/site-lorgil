@@ -128,7 +128,7 @@ export default function Section3() {
       </div>
 
       {/* Colcci Section */}
-      <div className="flex flex-col md:flex-row items-center gap-10 mb-14">
+      <div id="Colcci" className="flex flex-col md:flex-row items-center gap-10 mb-14">
         <div className="w-full md:w-1/2">
           <div className="relative">
             <Image
@@ -165,7 +165,7 @@ export default function Section3() {
       </div>
 
       {/* Lavorato Section */}
-      <div className="flex flex-col md:flex-row-reverse items-center gap-6 md:gap-10 mb-14">
+      <div id="Lavorato" className="flex flex-col md:flex-row-reverse items-center gap-6 md:gap-10 mb-14">
         <div className="w-full md:w-1/2">
           <Image
             src="/img/ImgsSection3/fourth-image.svg"
@@ -192,7 +192,7 @@ export default function Section3() {
       </div>
 
       {/* Fiamma Section */}
-      <div className="flex flex-col md:flex-row items-center gap-10">
+      <div id="Fiamma" className="flex flex-col md:flex-row items-center gap-10">
         <div className="w-full md:w-1/2">
           <div className="relative">
             <Image
