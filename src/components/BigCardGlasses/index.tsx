@@ -20,7 +20,7 @@ export default function BigCardGlasses({
   linkImgEnterprise: string
 }) {
   return (
-    <div className={`bg-white p-4 w-[48%] h-[300px] rounded-[8px] flex flex-col ${poppins.className}`}>
+    <div className={`bg-white p-4 w-[48%] h-auto rounded-[8px] flex flex-col border border-black ${poppins.className}`}>
       <div className="flex-1">
         <div className="flex justify-center items-center h-32">
           <div className="relative w-full h-[130px]">

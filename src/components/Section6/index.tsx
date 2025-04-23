@@ -45,7 +45,6 @@ export default function Section6() {
           </div>
         </div>
       </div>
-      <div className="h-1 bg-white w-full"></div>
     </>
   )
 }
