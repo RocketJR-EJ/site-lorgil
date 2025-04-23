@@ -147,7 +147,7 @@ export default function Section3() {
             />
           </div>
         </div>
-        <div className="w-full md:w-1/2 mt-6 md:mt-0 flex justify-center px-4 md:px-0">
+        <div className="w-full md:w-1/2 mt-6 md:mt-0 flex justify-center px-4">
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 w-full">
             {colcciGlasses.slice(0, 6).map((glass, index) => (
               <div key={index} className="flex justify-center">
@@ -175,7 +175,7 @@ export default function Section3() {
             className="w-full h-auto"
           />
         </div>
-        <div className="container mx-auto px-4 mt-4 md:mt-0 md:px-0 md:w-1/2">
+        <div className="container mx-auto px-4 mt-4 md:mt-0 md:w-1/2">
           <div className="flex justify-around md:justify-between w-full gap-4">
             {lavoratoGlasses.map((glass, index) => (
               <BigCardGlasses
@@ -233,7 +233,7 @@ export default function Section3() {
             </div>
           </div>
         </div>
-        <div className="w-full md:w-1/2 mt-6 md:mt-0 flex justify-center px-4 md:px-0">
+        <div className="w-full md:w-1/2 mt-6 md:mt-0 flex justify-center px-4">
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 w-full">
             {fiammaGlasses.slice(0, 6).map((glass, index) => (
               <div key={index} className="flex justify-center">

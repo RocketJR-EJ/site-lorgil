@@ -105,7 +105,7 @@ export default function Section2() {
             priority
           />
         </div>
-        <div id="Mormaii" className="w-full md:w-3/5 mt-6 md:mt-0 flex justify-center">
+        <div id="Mormaii" className="w-full md:w-3/5 mt-6 md:mt-0 flex justify-center px-4"> 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 w-full">
             {mormaiGlasses.map((glass, index) => (
               <div key={index} className="flex justify-center">
@@ -123,7 +123,7 @@ export default function Section2() {
       </div>
 
       <div id="JeanPierre" className="flex flex-col-reverse md:flex-row items-center gap-6 md:gap-8">
-        <div className="w-full md:w-3/5 mt-6 md:mt-0 flex justify-center">
+        <div className="w-full md:w-3/5 mt-6 md:mt-0 flex justify-center px-4"> 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 w-full">
             {jeanPierreGlasses.map((glass, index) => (
               <div key={index} className="flex justify-center">
