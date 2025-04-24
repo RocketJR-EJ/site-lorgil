@@ -4,11 +4,11 @@ import Map from '../Map'
 export default function Section6() {
   return (
     <>
-      <div className="w-full py-6 md:py-8 lg:py-10 text-center font-poppins bg-gradient-to-b from-white to-gray-50">
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#FF2A2A] mb-2">
+      <div className="w-full pt-3 md:pt-4 lg:pt-6 pb-0 text-center font-poppins bg-gradient-to-b from-white to-gray-50">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#FF2A2A] mb-1">
           Nossa Localização
         </h2>
-        <p className="text-sm md:text-base text-gray-600 max-w-lg mx-auto px-4 md:whitespace-nowrap">
+        <p className="text-sm md:text-base text-gray-600 max-w-lg mx-auto px-4 md:whitespace-nowrap mb-1">
           Estamos localizados em um ponto de fácil acesso. Venha nos visitar!
         </p>
       </div>
@@ -16,7 +16,7 @@ export default function Section6() {
       {/* Componente do Mapa */}
       <Map />
 
-      <div className="w-full bg-[#222222] text-white pt-6 md:pt-10 lg:pt-12 pb-0 font-poppins px-14 mt-6 md:mt-8 lg:mt-10">
+      <div className="w-full bg-[#222222] text-white pt-6 md:pt-10 lg:pt-12 pb-0 font-poppins px-14">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-end gap-6 md:gap-12 lg:gap-16">
           <div className="w-2/3 md:w-1/3 lg:w-1/4 flex-shrink-0">
             <Image
