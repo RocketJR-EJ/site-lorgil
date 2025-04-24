@@ -248,10 +248,10 @@ function Section5() {
                 />
             </article>
 
-            <main className="flex flex-col items-center gap-5 mt-5 mb-10 px-4 sm:px-6 md:px-8">
+            <main className="flex flex-col items-center gap-5 mt-5 mb-10 px-1 sm:px-4 md:px-6">
                 <div className="flex flex-col w-full">
                     <div className="flex flex-col gap-5">
-                        <div className="flex flex-wrap gap-5 justify-center max-w-screen-2xl mx-auto">
+                        <div className="flex flex-wrap gap-2 sm:gap-5 justify-center max-w-screen-2xl mx-auto">
                             {AlanfOculos.map((oculos, index) => (
                                 <SmallCardGlasses
                                     key={index}
