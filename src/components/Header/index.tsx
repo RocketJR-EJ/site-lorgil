@@ -277,10 +277,6 @@ function Header() {
             {/* Espaçador para compensar o header fixo */}
             <div className="pt-24"></div> {/* Ajuste o valor conforme necessário */}
 
-            <article className='p-9 flex bg-zinc-900 text-white items-center justify-around w-full'>
-                <h1>Jotta #222222</h1>
-            </article>
-
         </>
     );
 }
