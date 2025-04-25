@@ -17,16 +17,14 @@ function Slide() {
     }, 8000);
 
     return () => clearInterval(interval);
-  }, [slides.length]); // Add slides.length as a dependency
+  }, [slides.length]); 
 
   const goToSlide = (index: number) => {
     setCurrentSlide(index);
   };
 
   return (
-    <>            <article className='p-9 flex bg-zinc-900 text-white items-center justify-around w-full'>
-      <h1>Jotta #222222</h1>
-    </article>
+    <>            
       <div className="flex flex-col items-center w-full">
         <div className="relative w-full overflow-hidden mx-auto">
           <div className="relative w-full aspect-[16/9] md:aspect-auto md:h-[70vh]">
