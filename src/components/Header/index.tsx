@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Instagram, Menu, X, ChevronDown, ChevronUp, Glasses, MapPin } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
-import { Pacifico } from "next/font/google";
+
 
 
 function Header() {
