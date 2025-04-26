@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: ['var(--font-poppins)'],
+        pacifico: ['var(--font-pacifico)'],
       },
     },
   },

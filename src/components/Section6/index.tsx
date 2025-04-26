@@ -4,7 +4,7 @@ import Map from '../Map'
 export default function Section6() {
   return (
     <>
-      <div className="w-full pt-3 md:pt-4 lg:pt-6 pb-0 text-center font-poppins bg-gradient-to-b from-white to-gray-50">
+      <div id="mapas" className="w-full pt-3 md:pt-4 lg:pt-6 pb-0 text-center font-poppins bg-gradient-to-b from-white to-gray-50">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#FF2A2A] mb-1">
           Nossa Localização
         </h2>
