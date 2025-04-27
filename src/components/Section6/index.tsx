@@ -34,7 +34,7 @@ export default function Section6() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-8 font-normal">
               <div>
                 <h3 className="text-base md:text-lg mb-1">Horário de Atendimento:</h3>
-                <p className="text-sm md:text-base">Segunda à Sexta: 09h00 às 17h00</p>
+                <p className="text-sm md:text-base">Segunda à Sexta: 08h00 às 18h00</p>
                 <p className="text-sm md:text-base">Sábado: 08h00 às 12h00</p>
               </div>
               <div>

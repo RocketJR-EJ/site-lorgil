@@ -3,12 +3,6 @@ import Image from 'next/image';
 import { Instagram, Menu, X, ChevronDown, ChevronUp, Glasses, MapPin } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
-import { Pacifico } from "next/font/google";
-
-const pacifico = Pacifico({
-  subsets: ['latin'],
-  weight: '400',
-});
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -81,7 +75,7 @@ function Header() {
           <ul className="flex gap-6 items-center">
             <Glasses />
             <h1 className="text-sm md:text-base lg:text-3xl font-bold px-4 py-2 rounded-lg bg-red-800 text-white">
-              Uma <span className={pacifico.className}>ótica</span> diferente para você <span className="font-extrabold">ver o mundo</span>!
+              <span className="font-extrabold"> Uma ótica diferente para você ver o mundo</span>!
             </h1>
             <li className="relative" ref={marcasRef}>
               <button
