@@ -4,7 +4,7 @@ import Map from '../Map'
 export default function Section6() {
   return (
     <>
-      <div className="w-full pt-3 md:pt-4 lg:pt-6 pb-0 text-center font-poppins bg-gradient-to-b from-white to-gray-50">
+      <div id="mapas" className="w-full pt-3 md:pt-4 lg:pt-6 pb-0 text-center font-poppins bg-gradient-to-b from-white to-gray-50">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#FF2A2A] mb-1">
           Nossa Localização
         </h2>
@@ -34,7 +34,7 @@ export default function Section6() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-8 font-normal">
               <div>
                 <h3 className="text-base md:text-lg mb-1">Horário de Atendimento:</h3>
-                <p className="text-sm md:text-base">Segunda à Sexta: 09h00 às 17h00</p>
+                <p className="text-sm md:text-base">Segunda à Sexta: 08h00 às 18h00</p>
                 <p className="text-sm md:text-base">Sábado: 08h00 às 12h00</p>
               </div>
               <div>

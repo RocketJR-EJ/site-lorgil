@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Poppins, Ropa_Sans } from "next/font/google";
+import { Geist, Geist_Mono, Poppins, Ropa_Sans, Pacifico } from "next/font/google";
 import "./globals.css";
 
 
@@ -17,6 +17,12 @@ const poppins = Poppins({
   subsets: ['latin'],
   weight: ['400', '700'],
   variable: '--font-poppins',
+})
+
+const pacifico = Pacifico({
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--font-pacifico',
 })
 
 const ropaSans = Ropa_Sans({
@@ -37,7 +43,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${ropaSans.variable}`}>
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${ropaSans.variable} ${pacifico.variable}`}>
       <body className={poppins.className}>{children}</body>
     </html>
   );
