@@ -20,7 +20,7 @@ function Cards() {
 
             <div className="card flex flex-row w-full md:w-96 items-center overflow-hidden bg-red-600 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg">
                 <div className="p-4 md:p-6 flex-1">
-                    <h2 className="font-poppins text-base md:text-lg text-white">Vendemos <span className="font-bold">Lentes de Contato!</span></h2>
+                    <h2 className="font-poppins text-xs md:text-lg text-white w-40 lg:text-base">Vendemos Lentes de Contato das marcas <span className="font-bold"> Essilor, Hoya e entre outras.</span></h2>
                 </div>
                 <div className="h-50 md:h-50 flex-shrink-0">
                     <Image 
