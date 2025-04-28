@@ -1,3 +1,4 @@
+import BigCardGlasses from '../BigCardGlasses';
 import SmallCardGlasses from '../SmallCardGlasses'
 import Image from 'next/image'
 
@@ -49,52 +50,24 @@ const mormaiGlasses = [
 const jeanPierreGlasses = [
   {
     title: "Óculos de Sol",
-    linkImgGlasses: "/img/GlassesSection2/mormai-agra.svg",
-    modelo: "M6117A1451",
-    collection: "AGRA",
+    linkImgGlasses: "/img/GlassesSection2/JP70581744.png",
+    modelo: "7108",
+    collection: "MODERN",
     linkImgEnterprise: "/img/Enterprises/jean-pierre.svg"
   },
   {
     title: "Óculos de Sol",
-    linkImgGlasses: "/img/GlassesSection2/colcci-gabi.svg",
-    modelo: "0012ASDASD123AS",
-    collection: "GABI",
+    linkImgGlasses: "/img/GlassesSection2/JP71083204.png",
+    modelo: "7058",
+    collection: "MONO FLORAL",
     linkImgEnterprise: "/img/Enterprises/jean-pierre.svg"
   },
-  {
-    title: "Óculos de Sol",
-    linkImgGlasses: "/img/GlassesSection2/colcci-gabi.svg",
-    modelo: "0012ASDASD123AS",
-    collection: "GABI",
-    linkImgEnterprise: "/img/Enterprises/jean-pierre.svg"
-  },
-  {
-    title: "Óculos de Sol",
-    linkImgGlasses: "/img/GlassesSection2/colcci-gabi.svg",
-    modelo: "0012ASDASD123AS",
-    collection: "GABI",
-    linkImgEnterprise: "/img/Enterprises/jean-pierre.svg"
-  },
-  {
-    title: "Óculos de Sol",
-    linkImgGlasses: "/img/GlassesSection2/colcci-gabi.svg",
-    modelo: "0012ASDASD123AS",
-    collection: "GABI",
-    linkImgEnterprise: "/img/Enterprises/jean-pierre.svg"
-  },
-  {
-    title: "Óculos de Sol",
-    linkImgGlasses: "/img/GlassesSection2/colcci-gabi.svg",
-    modelo: "0012ASDASD123AS",
-    collection: "GABI",
-    linkImgEnterprise: "/img/Enterprises/jean-pierre.svg"
-  }
 ];
 
 export default function Section2() {
   return (
-    <section className="w-full bg-white text-black my-10 px-0 sm:px-0 md:px-0">
-      <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8 mb-12 md:mb-20">
+    <section className="w-full bg-white text-black my-auto px-0 sm:px-0 md:px-0">
+      <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8 mb-5 md:mb-20">
         <div className="w-full md:w-1/2">
           <Image
             src="/img/ImgsSection2/first-image.svg"
@@ -105,7 +78,7 @@ export default function Section2() {
             priority
           />
         </div>
-        <div id="Mormaii" className="w-full md:w-3/5 mt-6 md:mt-0 flex justify-center px-4"> 
+        <div id="Mormaii" className="w-full md:w-3/5 mt-6 md:mt-0 flex justify-center px-4">
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 w-full">
             {mormaiGlasses.map((glass, index) => (
               <div key={index} className="flex justify-center">
@@ -122,19 +95,19 @@ export default function Section2() {
         </div>
       </div>
 
-      <div id="JeanPierre" className="flex flex-col-reverse md:flex-row items-center gap-6 md:gap-8">
-        <div className="w-full md:w-3/5 mt-6 md:mt-0 flex justify-center px-4"> 
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 w-full">
+      <div id="JeanPierre" className="flex flex-col-reverse md:flex-row items-center gap-6 md:gap-10 mb-14">
+        <div className="container mx-auto px-4 mt-6 md:mt-0 md:w-1/2">
+          {/* Modificado para flex-row desde o início (celular) */}
+          <div className="flex flex-row justify-around md:justify-between w-full gap-4">
             {jeanPierreGlasses.map((glass, index) => (
-              <div key={index} className="flex justify-center">
-                <SmallCardGlasses
-                  title={glass.title}
-                  linkImgGlasses={glass.linkImgGlasses}
-                  modelo={glass.modelo}
-                  collection={glass.collection}
-                  linkImgEnterprise={glass.linkImgEnterprise}
-                />
-              </div>
+              <BigCardGlasses
+                key={index}
+                title={glass.title}
+                linkImgGlasses={glass.linkImgGlasses}
+                modelo={glass.modelo}
+                collection={glass.collection}
+                linkImgEnterprise={glass.linkImgEnterprise}
+              />
             ))}
           </div>
         </div>
