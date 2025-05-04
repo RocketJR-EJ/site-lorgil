@@ -238,7 +238,7 @@ function Section5() {
 
     return (
         <>
-            <article id="Nanff" className="flex w-full flex-row mt-5">
+            <article id="Nanff" className="flex w-full flex-row mt-5 scroll-mt-[-40px]">
                 <Image
                     src="/img/Section5/BannerSection5.svg"
                     alt=""
