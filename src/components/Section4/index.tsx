@@ -42,7 +42,7 @@ function Section4 (){
             collection:"MODERN",
             linkImgEnterprise:"/img/Logos/DC.svg"
         }
-        
+
     ];
 
     const CarolCazassa = [
@@ -85,7 +85,7 @@ function Section4 (){
             collection:"MODERN",
             linkImgEnterprise:"/img/Logos/CarolCazassa.svg"
         }
-        
+
     ];
 
     const Vilenev = [
@@ -128,13 +128,13 @@ function Section4 (){
             collection:"MODERN",
             linkImgEnterprise:"/img/Logos/Vileney.svg"
         }
-        
+
     ];
 
 
     return(
         <>
-        <article className="flex w-full flex-row mt-5"> 
+        <article className="flex w-full flex-row mt-5">
             <Image
                 src="/img/ImgsSection4/BannerSection4.svg"
                 alt=""
@@ -148,7 +148,7 @@ function Section4 (){
             <h1 className="font-medium text-center">Modelos Duster Concept</h1>
             <div className="flex flex-col">
                 <div className="flex flex-col gap-5">
-                    <div id="DusterConcept" className="flex flex-wrap gap-5 justify-center items-center">
+                    <div id="DusterConcept" className="flex flex-wrap gap-5 justify-center items-center scroll-mt-80">
                         {DusterConcept.map((oculos, index)=>(
                             <SmallCardGlasses
                             key={index}
@@ -166,7 +166,7 @@ function Section4 (){
             <h1 className="font-medium text-center">Modelos Carol Cazassa</h1>
             <div className="flex flex-col">
                 <div className="flex flex-col gap-5">
-                    <div id="CarolCazassa" className="flex flex-wrap gap-5 justify-center items-center">
+                    <div id="CarolCazassa" className="flex flex-wrap gap-5 justify-center items-center scroll-mt-80">
                         {CarolCazassa.map((oculos, index)=>(
                             <SmallCardGlasses
                             key={index}
@@ -184,7 +184,7 @@ function Section4 (){
             <h1 className="font-medium text-center">Modelos Vilenev</h1>
             <div className="flex flex-col">
                 <div className="flex flex-col gap-5">
-                    <div id="Vilenev" className="flex flex-wrap gap-5 justify-center items-center">
+                    <div id="Vilenev" className="flex flex-wrap gap-5 justify-center items-center scroll-mt-80">
                         {Vilenev.map((oculos, index)=>(
                             <SmallCardGlasses
                             key={index}

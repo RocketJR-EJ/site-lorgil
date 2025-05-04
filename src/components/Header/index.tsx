@@ -258,9 +258,14 @@ function Header() {
                           <span className="text-xs">Carol</span>
                         </a>
                         <a href="#Vilenev" className="flex flex-col items-center p-2 bg-red-800/30 rounded hover:bg-red-800/50 transition-colors text-center"
-                          onClick={() => setIsMarcasOpen(false)}>
+                          onClick={() => { setIsMarcasOpen(false); setIsMenuOpen(false); }}>
                           <Glasses className="w-5 h-5 mb-1" />
                           <span className="text-xs">Vileney</span>
+                        </a>
+                        <a href="#Nanff" className="flex flex-col items-center p-2 bg-red-800/30 rounded hover:bg-red-800/50 transition-colors text-center"
+                          onClick={() => { setIsMarcasOpen(false); setIsMenuOpen(false); }}>
+                          <Glasses className="w-5 h-5 mb-1" />
+                          <span className="text-xs">Nanff</span>
                         </a>
                       </div>
                     </div>

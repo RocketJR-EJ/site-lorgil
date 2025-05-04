@@ -78,7 +78,7 @@ export default function Section2() {
             priority
           />
         </div>
-        <div id="Mormaii" className="w-full md:w-3/5 mt-6 md:mt-0 flex justify-center px-4">
+        <div id="Mormaii" className="w-full md:w-3/5 mt-6 md:mt-0 flex justify-center px-4 scroll-mt-70">
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 w-full">
             {mormaiGlasses.map((glass, index) => (
               <div key={index} className="flex justify-center">
@@ -95,7 +95,7 @@ export default function Section2() {
         </div>
       </div>
 
-      <div id="JeanPierre" className="flex flex-col-reverse md:flex-row items-center gap-6 md:gap-10 mb-14">
+      <div id="JeanPierre" className="flex flex-col-reverse md:flex-row items-center gap-6 md:gap-10 mb-14 scroll-mt-70">
         <div className="container mx-auto px-4 mt-6 md:mt-0 md:w-1/2">
           {/* Modificado para flex-row desde o início (celular) */}
           <div className="flex flex-row justify-around md:justify-between w-full gap-4">
