@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     ],
     locale: "pt_BR",
     type: "website",
-  },
+  }
 };
 
 export default function RootLayout({
@@ -64,6 +64,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Ótica Lorgil" />
+        <meta name="google-site-verification" content="TCdbfXNFBn1HYwKZocDepcYAg9_O5HUPqRsKgoo6C4o" />
         <link rel="icon" href="/img/Logos/Logo_Lorgil.svg" />
       </head>
       <body className={poppins.className}>{children}</body>
